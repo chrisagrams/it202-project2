@@ -4,6 +4,17 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -14,7 +25,7 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: #D50032;
 }
 
 a:hover {
@@ -22,7 +33,7 @@ a:hover {
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #D50032 !important;
 }
 
 h1,
@@ -61,12 +72,12 @@ h6 {
 }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #D50032;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: #D50032;
   text-shadow: none;
 }
 
@@ -93,13 +104,13 @@ img::-moz-selection {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #D50032;
+  border-color: #D50032;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #D50032 !important;
+  border-color: #D50032 !important;
   color: white;
 }
 
@@ -118,17 +129,17 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #fed136;
+  background-color: #D50032;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
+  color: #D50032;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #D50032;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -141,7 +152,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #D50032;
 }
 
 @media (min-width: 992px) {
@@ -162,7 +173,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: #001E62;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -442,7 +453,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: #D50032;
 }
 
 .timeline > li .timeline-image h4 {
@@ -613,7 +624,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #fed136;
+  border-color: #D50032;
   box-shadow: none;
 }
 
@@ -679,5 +690,5 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #D50032;
 }
