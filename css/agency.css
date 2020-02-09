@@ -15,11 +15,10 @@
   background-size: cover;
 }
 
+
 .map {
-    height: 100%;
-}
-.map {
-    height: 50rem;
+    height: 35rem;
+    padding: 0px;
 }
 
 
